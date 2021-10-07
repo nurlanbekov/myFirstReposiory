@@ -1,5 +1,6 @@
 package kg.easy.sellservice.models.dtos;
 
+import kg.easy.sellservice.models.entities.Product;
 import lombok.AccessLevel;
 import lombok.Data;
 import lombok.experimental.FieldDefaults;
@@ -9,9 +10,9 @@ import lombok.experimental.FieldDefaults;
 public class OperationDetailDto {
 
     Long id;
-    ProductDto product;
+    Product product;
     OperationDto operation;
-    Integer quantity;
-    Double amount;
+    Integer amount;
+    Double price;
 
 }
