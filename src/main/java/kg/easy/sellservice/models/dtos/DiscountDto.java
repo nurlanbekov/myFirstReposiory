@@ -16,5 +16,4 @@ public class DiscountDto {
     Date endDate;
     ProductDto product;
 
-
 }
